@@ -16,6 +16,11 @@
       padding: 0;
       background: #082f7a;
       font-family: sans-serif;
+      /* Agregamos Flexbox para centrar vertical y horizontalmente */
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
     .stage {
@@ -71,7 +76,8 @@
     /* Music button */
     .music-btn {
       position: fixed;
-      bottom: 22px;
+      bottom: 80px;
+      /* Lo subimos (antes estaba en 22px) */
       right: 22px;
       z-index: 50;
       width: 58px;
